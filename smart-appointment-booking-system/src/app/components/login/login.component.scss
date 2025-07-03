@@ -1,0 +1,23 @@
+.login{
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  &-container {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 10px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    border-radius: 10px;
+    &-header {
+      text-align: center;
+    }
+    &-body {
+      &-form {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
