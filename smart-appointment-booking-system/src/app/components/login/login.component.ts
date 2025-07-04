@@ -11,7 +11,7 @@ import { MatButtonModule } from '@angular/material/button';
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
-  loginForm !: FormGroup
+  loginForm !: FormGroup;
 
   constructor(){
     this.loginForm = new FormGroup({
