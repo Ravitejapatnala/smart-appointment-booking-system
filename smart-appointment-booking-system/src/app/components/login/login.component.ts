@@ -19,4 +19,14 @@ export class LoginComponent {
       password : new FormControl()
     })
   }
+
+  onLogin(){
+    const email = this.loginForm.get('email')?.value;
+    const password = this.loginForm.get('password')?.value;
+
+    console.log('Login Email: ',email);
+    console.log('Login Password: ', password);
+
+    this.loginForm.reset();
+  }
 }

@@ -17,6 +17,10 @@
       &-form {
         display: flex;
         flex-direction: column;
+
+        .mdc-button {
+          margin-bottom: 22px;
+        }
       }
     }
   }
